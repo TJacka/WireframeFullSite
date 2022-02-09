@@ -1,0 +1,113 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     height: 80px;
+     background: rgb(28, 36, 51);
+     color: white;
+}
+
+nav {
+     height: 80px;
+}
+
+nav img {
+     padding: 30px 100px;
+}
+
+nav ul li {
+     display: inline;
+     padding: 20px;
+     text-decoration: none;
+}
+
+main.hero section {
+     height: 800px;
+     width: 50%;
+     float: left;
+     background-color: rgb(28, 36, 51);
+     color: white;
+}
+
+.hero--iconlinks {
+     width: 100%;
+     display: inline-block;
+     height: 50px;
+     background: white;
+}
+
+main.firm {
+     height: 500px;
+     display: inline-block;
+}
+
+main.firm section {
+     width: 50%;
+     float: left;
+}
+
+.solutions {
+     display: inline-block;
+}
+
+.solutions section {
+     width: 50%;
+     float: left;
+     height: 600px;
+}
+
+.how {
+     text-align: center;
+     height: 200px;
+}
+
+.footertop {
+     height: 200px;
+     background: rgb(28, 36, 51);
+}
+
+.footerbottom {
+     height: 350px;
+     display: inline-block;
+}
+
+footer {
+     height: 350px;
+}
+
+.footerbottom section {
+     width: 14.28%;
+     float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
