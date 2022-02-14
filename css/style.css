@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -30,43 +30,174 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-     height: 80px;
+     height: 120px;
      background: rgb(28, 36, 51);
      color: white;
+     width: 100%;
 }
 
 nav {
      height: 80px;
+     display: inline-block;
+     color: white;
+     width: 100%;
+}
+
+nav > * {
+     padding: 0px;
+}
+
+nav ul {
+     display: inline-block;
+     float: right;
+     margin-right: 60px;
+}
+
+nav li {
+     padding: 40px 7px 0px 7px;
+     display: inline-block;
 }
 
 nav img {
-     padding: 30px 100px;
+     padding: 40px 100px;
 }
 
-nav ul li {
-     display: inline;
-     padding: 20px;
+nav a {
+     padding: 0 10px;
      text-decoration: none;
+     color: white;
 }
 
-main.hero section {
-     height: 800px;
+.signup {
+     margin: 0 20px 0 20px;
+}
+
+.hero--center {
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+.hero section section {
+     height: 600px;
      width: 50%;
      float: left;
      background-color: rgb(28, 36, 51);
      color: white;
+     margin: 0 auto;
+}
+
+.hero {
+     background: rgb(28, 36, 51);
+     width: 100%;
+     height: 600px;
+}
+
+.hero h1, .hero p {
+     padding-right: 80px;
+}
+
+.hero img {
+     padding-top: 50px;
+}
+
+.buttons {
+     max-height: 100px;
+     min-width: 420px;
+}
+
+.buttons button {
+     padding: 10px;
+}
+
+.icons {
+     height: 100px;
+}
+
+.btnleft {
+     float: left;
+     width: 200px;
+     height: 45px;
+     font-size: 0.8rem;
+     font-weight: bold;
+     margin: 50px 0 0 0;
+}
+
+.btnright {
+     float: right;
+     margin-left: 20px;
+     width: 200px;
+     height: 45px;
+     font-size: 0.8rem;
+     font-weight: bold;
+     background: rgb(28, 36, 51);
+     color: white;
+     border: 1px solid white;
+     margin: 50px 0 0 0;
+}
+
+.icons {
+     background: white;
+     max-width: 1280px;
+     margin: 20px auto;
 }
 
 .hero--iconlinks {
-     width: 100%;
+     float: right;
      display: inline-block;
      height: 50px;
      background: white;
+     margin: 30px 60px 30px 10px;
 }
 
-main.firm {
-     height: 500px;
-     display: inline-block;
+.hero--iconlinks img {
+     margin: 0 20px 0 20px;
+}
+
+.hero--left {
+     padding: 100px 0 100px 100px;
+}
+
+.firm--left {
+     padding: 100px 50px 100px 50px;
+}
+
+.firm--left p {
+     padding-right: 20px;
+}
+
+.firm--right {
+     margin-right: 0px;
+     width: 45%;
+}
+
+.firm h2 {
+     font-size: 1.75rem;
+     margin: 20px 50px 20px 0;
+     line-height: 1.4;
+}
+
+.firm p {
+     margin-bottom: 20px;
+}
+
+.firm button {
+     margin-left: 20px;
+     width: 200px;
+     height: 45px;
+     font-size: 0.8rem;
+     font-weight: bold;
+     background: rgb(28, 36, 51);
+     color: white;
+     border: none;
+     margin: 50px 0 0 0;
+     border-radius: 5px;
+}
+
+.firm {
+     height: 700px;
+     background: white;
+     max-width: 1280px;
+     margin: 0 auto;
 }
 
 main.firm section {
@@ -74,8 +205,47 @@ main.firm section {
      float: left;
 }
 
+.firmcards--left {
+     max-width: 250px;
+     min-width: 250px;
+     text-align: center;
+     box-shadow: 0 4px 10px -2px gray;
+     margin: 20px;
+}
+
+.firmcards--right {
+     max-width: 250px;
+     min-width: 250px;
+     text-align: center;
+     box-shadow: 0 4px 10px -2px gray;
+     margin: 20px;
+}
+
+.firmcards--left h5 {
+     margin: 10px 0;
+}
+
+.firmcards--left img {
+     margin: 0;
+}
+
+.firmcards--right h5 {
+     margin: 10px 0;
+}
+
+.firmcards--right img {
+     margin: 0;
+}
+
+.firm--cards p {
+     padding: 0px 20px;
+}
+
 .solutions {
-     display: inline-block;
+     height: 700px;
+     max-width: 1280px;
+     margin: 0 auto;
+     padding: 100px 50px 0 50px;
 }
 
 .solutions section {
@@ -84,9 +254,103 @@ main.firm section {
      height: 600px;
 }
 
+.solutions h2 {
+     margin: 20px 50px 20px 0;
+     line-height: 1.4;
+}
+
+.solutions p {
+     margin-bottom: 20px;
+}
+
+.solutions button {
+     width: 200px;
+     height: 45px;
+     font-size: 0.8rem;
+     font-weight: bold;
+     background: rgb(28, 36, 51);
+     color: white;
+     border: none;
+     margin: 50px 0 0 0;
+     border-radius: 5px;
+}
+
+.solutions2 {
+     height: 700px;
+     max-width: 1280px;
+     margin: 0 auto;
+     padding: 100px 50px 0 50px;
+}
+
+.solutions2 section {
+     width: 50%;
+     float: left;
+     height: 600px;
+}
+
+.solutions2 h2 {
+     margin: 20px 50px 20px 0;
+     line-height: 1.4;
+}
+
+.solutions2 p {
+     margin-bottom: 20px;
+}
+
+.solutions2 button {
+     width: 200px;
+     height: 45px;
+     font-size: 0.8rem;
+     font-weight: bold;
+     background: rgb(28, 36, 51);
+     color: white;
+     border: none;
+     margin: 50px 0 0 0;
+     border-radius: 5px;
+}
+
+.solutions3 {
+     height: 700px;
+     max-width: 1280px;
+     margin: 0 auto;
+     padding: 100px 50px 0 50px;
+}
+
+.solutions3 section {
+     width: 50%;
+     float: left;
+     height: 600px;
+}
+
+.solutions3 h2 {
+     margin: 20px 50px 20px 0;
+     line-height: 1.4;
+}
+
+.solutions3 p {
+     margin-bottom: 20px;
+}
+
+.solutions3 button {
+     width: 200px;
+     height: 45px;
+     font-size: 0.8rem;
+     font-weight: bold;
+     background: rgb(28, 36, 51);
+     color: white;
+     border: none;
+     margin: 50px 0 0 0;
+     border-radius: 5px;
+}
+
 .how {
      text-align: center;
-     height: 200px;
+     height: 100px;
+     width: 100%;
+}
+
+.how h2 {
+     padding: 20px;
 }
 
 .footertop {
@@ -111,3 +375,18 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+h1 {
+     font-size: 2rem;
+     padding: 10px 0;
+     line-height: 1.4;
+}
+
+h2 {
+     font-size: 1.75rem;
+}
+
+p {
+     line-height: 1.6;
+}
+
