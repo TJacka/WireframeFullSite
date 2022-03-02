@@ -42,7 +42,9 @@ body {
 
      nav {
           height: 80px;
-          display: inline-block;
+          /* display: inline-block; */
+          display: flex;
+          justify-content: space-between;
           color: white;
           width: 100%;
      }
@@ -52,14 +54,15 @@ body {
      }
 
      nav ul {
-          display: inline-block;
-          float: right;
+          /* display: inline-block;
+          float: right; */
           margin-right: 60px;
+          display: flex;
      }
 
      nav li {
           padding: 40px 7px 0px 7px;
-          display: inline-block;
+          /* display: inline-block; */
      }
 
      nav img {
@@ -79,15 +82,17 @@ body {
      .hero--center {
           max-width: 1280px;
           margin: 0 auto;
+          display: flex;
      }
 
-     .hero section section {
+     .hero--center section {
           height: 600px;
           width: 50%;
-          float: left;
+          /* float: left; */
           background-color: rgb(28, 36, 51);
           color: white;
-          margin: 0 auto;
+          /* margin: 0 auto; */
+
      }
 
      .hero {
@@ -107,6 +112,8 @@ body {
      .buttons {
           max-height: 100px;
           min-width: 420px;
+          display: flex;
+          justify-content: space-between;
      }
 
      .buttons button {
@@ -118,7 +125,7 @@ body {
      }
 
      .btnleft {
-          float: left;
+          /* float: left; */
           width: 200px;
           height: 45px;
           font-size: 0.8rem;
@@ -127,7 +134,7 @@ body {
      }
 
      .btnright {
-          float: right;
+          /* float: right; */
           margin-left: 20px;
           width: 200px;
           height: 45px;
@@ -143,11 +150,13 @@ body {
           background: white;
           max-width: 1280px;
           margin: 20px auto;
+          display: flex;
+          justify-content: flex-end;
      }
 
      .hero--iconlinks {
-          float: right;
-          display: inline-block;
+          /* float: right;
+          display: inline-block; */
           height: 50px;
           background: white;
           margin: 30px 60px 30px 10px;
@@ -202,15 +211,20 @@ body {
           background: white;
           max-width: 1280px;
           margin: 0 auto;
+          display: flex;
      }
 
-     main.firm section {
+     .firm section {
           width: 50%;
-          float: left;
+          /* float: left; */
+     }
+
+     .firm--cards {
+          display: flex;
      }
 
      .firmcards--left {
-          max-width: 250px;
+          max-height: 300px;
           min-width: 250px;
           text-align: center;
           box-shadow: 0 4px 10px -2px gray;
@@ -218,7 +232,7 @@ body {
      }
 
      .firmcards--right {
-          max-width: 250px;
+          max-height: 300px;
           min-width: 250px;
           text-align: center;
           box-shadow: 0 4px 10px -2px gray;
@@ -245,16 +259,17 @@ body {
           padding: 0px 20px;
      }
 
-     .solutions {
+     .solutions, .solutions2, .solutions3 {
           height: 700px;
           max-width: 1280px;
           margin: 0 auto;
           padding: 100px 50px 0 50px;
+          display: flex;
      }
 
      .solutions section {
           width: 50%;
-          float: left;
+          /* float: left; */
           height: 600px;
      }
 
@@ -279,16 +294,9 @@ body {
           border-radius: 5px;
      }
 
-     .solutions2 {
-          height: 700px;
-          max-width: 1280px;
-          margin: 0 auto;
-          padding: 100px 50px 0 50px;
-     }
-
      .solutions2 section {
           width: 50%;
-          float: left;
+          /* float: left; */
           height: 600px;
      }
 
@@ -313,16 +321,9 @@ body {
           border-radius: 5px;
      }
 
-     .solutions3 {
-          height: 700px;
-          max-width: 1280px;
-          margin: 0 auto;
-          padding: 100px 50px 0 50px;
-     }
-
      .solutions3 section {
           width: 50%;
-          float: left;
+          /* float: left; */
           height: 600px;
      }
 
@@ -360,20 +361,27 @@ body {
      .footertop {
           height: 200px;
           background: rgb(28, 36, 51);
+          color: white;
+          text-align: center;
+          padding-top: 20px;
      }
 
      .footerbottom {
-          height: 350px;
-          display: inline-block;
+          height: 300px;
+          /* display: inline-block; */
+          display: flex;
      }
 
      footer {
           height: 350px;
      }
 
+     footer * {
+          padding: 10px;
+     }
+
      .footerbottom section {
           width: 14.28%;
-          float: left;
      }
 
      h1 {
