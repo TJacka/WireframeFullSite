@@ -1,5 +1,29 @@
-Full website HTML, CSS and media queries layout exercise
+<div align="center">
 
-Based on website image wireframe initially using floats, then using flexbox.
+# Full Site Wireframe
 
-Completed using HTML and CSS.
+<br>
+
+**Link to live project:** https://tjacka.github.io/WireframeFullSite/
+
+<img src="https://ibb.co/JqGq2mt" border="0">
+
+<br>
+
+## Tech Used: 
+  
+HTML & CSS
+
+<br> 
+
+## Standard Features:
+
+Simple wireframe of a full website homepage. 
+
+<br>
+  
+## Future Optimizations:
+  
+Build out with CSS and JS
+  
+</div>
