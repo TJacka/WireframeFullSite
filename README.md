@@ -1,6 +1,6 @@
 <div align="center">
 
-# Full Site Wireframe
+# Full Website Homepage Wireframe
 
 <br>
 
@@ -24,6 +24,6 @@ Simple wireframe of a full website homepage.
   
 ## Future Optimizations:
   
-Build out with CSS and JS
+Build out with CSS and JS.
   
 </div>
