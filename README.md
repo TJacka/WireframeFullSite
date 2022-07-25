@@ -6,7 +6,7 @@
 
 **Link to live project:** https://tjacka.github.io/WireframeFullSite/
 
-<img src="https://ibb.co/JqGq2mt" border="0">
+<img src="https://i.ibb.co/jzQzGbf/Wire-Frame.jpg" border="0">
 
 <br>
 
